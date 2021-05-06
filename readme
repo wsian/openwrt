@@ -1,0 +1,3 @@
+Setup Adguard Home
+-install luci-comcat
+-update rc.local for startup execution
