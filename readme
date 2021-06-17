@@ -1,3 +1,5 @@
 Setup Adguard Home
 -install luci-comcat
--update rc.local for startup execution
+-install luci-app-adguardhome
+-edit /usr/share/AdGuardHome/update_core.sh and comment out "check_if_already_running()"
+-edit /usr/share/AdGuardHome/update_core.sh change wget-ssl to wget
